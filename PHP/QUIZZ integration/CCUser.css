@@ -1,0 +1,182 @@
+body{
+	height: 635px;
+	width: 1350px;
+	//border: solid 1px red;
+}
+.tete{
+	border: solid 1px transparent;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: inline;
+	background-color: #042325;
+}
+.imageJeu{
+	//border: solid 1px blue;
+	height: 100%;
+	width: 100px;
+}
+.imageJeu img{
+	height: 100%;
+	width: 100px;
+}
+.tete h1{
+	margin-left: 35%;
+	color: white;
+}
+.corps{
+	border: solid 1px transparent;
+	width: 100%;
+	height: 570px;
+	background-image: url("img-bg.jpg");	
+}
+.droite{
+	border-bottom: solid 1px grey;
+    width: 999.5px;
+    height: 552px;
+    border-radius: 5px;
+    background-color: white;
+}
+.contener{
+	border: solid 1px transparent;
+	width: 99.7%;
+	height: 98%;
+	display: flex;
+	flex-direction: inline;
+	border-radius: 5px;
+	background-color: white;
+}
+.formulaire{
+	//border:solid 1px blue;
+	width: 610px;
+	height: 100%;
+}
+.titre{
+	border-bottom:solid 1px grey;
+	width: 100%;
+	height: 60px;
+}
+.titre h2{
+	margin-bottom: 2px;
+	margin-top: 3px;
+	margin-left: 32px;
+	font-size: 1.9em;
+}
+.titre h1{
+	margin-top: 2px;
+	margin-left: 32px;
+	font-size: 0.9em;
+    font-weight: lighter;
+    color: grey;
+}
+.ecrit{
+	//border:solid 1px red;
+	height: 390px;
+	width: 92%;
+	margin-top: 10px;
+}
+.boutons{
+	//border:solid 1px green;
+	height: 80px;
+	width: 95%;
+	display: flex;
+	flex-direction: inline;
+}
+.boutons p{
+	margin-left: 32px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.ChoisirFichier{
+	//border:solid 1px blue;
+	height: 35px;
+    width: 120px;
+	margin-left: 105px;
+    margin-top: 6px;
+    font-size: 0.89em;
+    color: white;
+    background-color: #50bfd0;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+.CreerCompte{
+	//border:solid 1px blue;
+	height: 35px;
+    width: 115px;
+	margin-top: 38px;
+	margin-left: 130px;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	background-color: #50bfd0;
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+}
+.photo{
+	//border:solid 1px pink;
+	height: 285px;
+    width: 385px;
+}
+#bigPP{
+	//border: solid 1px pink;
+    height: 250px;
+    width: 250px;
+    border-radius: 500px;
+    margin-top: 4px;
+    margin-left: 69px;
+    background-color: #50bfd0;
+}
+#bigPP img {
+    height: 245px;
+    width: 245px;
+    border-radius: 500px;
+    margin-top: 2.499999px;
+    margin-left: 2.4px;
+}
+.photo h1{
+	margin-left: 105px;
+	margin-top: 2px;
+}
+input[type=text], select {
+  width: 530px;
+  height: 45px;
+  padding: 5px 12px;
+  margin-left: 30px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 530px;
+  height: 45px;
+  padding: 5px 12px;
+  margin-left: 30px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.ecrit label{
+	margin-left: 32px;
+	color: grey;
+	font-size: 1em;
+}
+.bas{
+	border: solid 1px black;
+    width: 1000px;
+    height: 560px;
+    margin-left: 165px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
+    background-color: grey;
+}

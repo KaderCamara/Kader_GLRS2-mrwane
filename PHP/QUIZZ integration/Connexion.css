@@ -1,0 +1,134 @@
+body{
+	height: 635px;
+	width: 1350px;
+	//border: solid 1px red;
+}
+.tete{
+	border: solid 1px transparent;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: inline;
+	background-color: #042325;
+}
+.imageJeu{
+	//border: solid 1px blue;
+	height: 100%;
+	width: 100px;
+}
+.imageJeu img{
+	height: 100%;
+	width: 100px;
+}
+.tete h1{
+	margin-left: 35%;
+	color: white;
+}
+.corps{
+	border: solid 1px transparent;
+	width: 100%;
+	height: 570px;
+	background-image: url("img-bg.jpg");	
+}
+input[type=text], select {
+  width: 520px;
+  padding: 12px 20px; 
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f0eef1;
+}
+input[type=password], select {
+  width: 520px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f0eef1;
+}
+.remplir {
+  width: 600px;
+  height: 350px;
+  background-color: #f2f2f2;
+  margin-left: 380px;
+  margin-top: 100px;
+}
+.haut{
+	//border: solid 1px orange;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	flex-direction: inline;
+	background-color: #50bfd0;
+}
+.haut h1{
+	margin-left: 5%;
+	color: white;
+	font-size: 1em;
+	margin-top: 22px;
+	font-weight: normal;
+}
+.quitter{
+	height: 25px;
+    width: 25px;
+    margin-left: 450px;
+    margin-top: 18px; 
+}
+.quitter input{
+	height: 25px;
+    width: 25px;
+    background-image: url("exit.png");
+    border: none;
+}
+.connexion{
+	//border: solid 1px green;
+	height: 40px;
+	width: 120px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #61e4de;
+	cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+form{
+	padding: 20px;
+}
+.field{
+	border: solid 1px transparent;
+	display: flex;
+	flex-direction: inline;
+	width: 550px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #f0eef1;
+	margin-top: 20px;
+	box-shadow: 0.5px 0.5px 1px 1px grey;
+}
+#logi{
+	width: 36px;
+	height: 36px;
+	margin-top: 8px;
+}
+#cadena{
+	width: 40px;
+	height: 40px;
+	margin-top: 0px;
+}
+.bas{
+	//border: solid 1px red;
+	height: 80px;
+	display: flex;
+	flex-direction: inline;
+}
+.bas p{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.bas a{
+	text-decoration: none;
+	color: grey;
+}

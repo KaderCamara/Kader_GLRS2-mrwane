@@ -1,0 +1,312 @@
+body{
+	height: 635px;
+	width: 1350px;
+	//border: solid 1px red;
+}
+.tete{
+	border: solid 1px transparent;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: inline;
+	background-color: #042325;
+}
+.imageJeu{
+	//border: solid 1px blue;
+	height: 100%;
+	width: 100px;
+}
+.imageJeu img{
+	height: 100%;
+	width: 100px;
+}
+.tete h1{
+	margin-left: 35%;
+	color: white;
+}
+.corps{
+	border: solid 1px transparent;
+	width: 100%;
+	height: 571px;
+	background-image: url("img-bg.jpg");	
+}
+.interface{
+	border: solid 1px transparent;
+	height: 558px;
+	width: 1285px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 6px;
+	border-radius: 5px;
+}
+.haut{
+	//border: solid 1px orange;
+	width: 100%;
+	height: 60px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	display: flex;
+	flex-direction: inline;
+	background-color: #50bfd0;
+}
+.haut h1{
+	margin-left: 37%;
+	color: white;
+}
+.deconnexion{
+	//border: solid 1px green;
+	height: 30px;
+	width: 110px;
+	margin-top: 15px;
+	margin-left: 320px;
+	background-color: #61e4de;
+	cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.bas{
+	//border: solid 1px green;
+    height: 495px;
+    width: 1284px;
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    margin-left: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f2f2f2;
+}
+.gauche{
+	border: solid 1px grey;
+	width: 450px;
+	height: 350px;
+	margin-left: 15px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+
+}
+.ProfilInfos{
+	//border: solid 1px blue;
+	height: 120px;
+	width: 100%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	display: flex;
+	flex-direction: inline;
+	background-color: #50bfd0;
+}
+.photoProfil{
+	border: solid 1px grey;
+	height: 95px;
+	width: 95px;
+	border-radius: 500px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.photoProfil img {
+	height: 85px;
+	width: 85px;
+	border-radius: 500px;
+	margin-left: 5px;
+	margin-top: 6px;
+}
+.nomPrenom{
+	//border: solid 1px red;
+	margin-left: 20px;
+}
+.nomPrenom h2{
+	margin-bottom: 3px;
+	margin-top: 30px;
+	color: white;
+}
+.nomPrenom h1{
+	margin-left: 40px;
+	margin-top: 3px;
+	color: white;
+}
+.listefonctions{
+	//border: solid 1px blue;
+	height: 230px;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: white;
+}
+.listefonctions a{
+	text-decoration: none;
+	color: black;
+}
+.vert{
+	height: 50px;
+	width: 5px;
+	background-color: green;
+}
+.blanc{
+	height: 50px;
+	width: 5px;
+	background-color: none;
+}
+.fonctions{
+	//border:solid 1px purple;
+	width: 100%;
+	height:50px;
+	display: flex;
+	flex-direction: inline;
+	background-color: white;
+}
+.fonctions h1{
+	margin-left: 20px;
+	margin-top: 15px;
+	width: 150px;
+}
+#selectionner{
+	background-color: #ddd8d5;
+}
+.icones{
+	//border: solid 1px pink;
+    width: 35px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+.icones img{
+	width: 35px;
+    height: 30px;
+}
+.droite{
+	border: solid 1px transparent;
+	width: 750px;
+	height: 400px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	background-color: grey;
+}
+.contener{
+	border: solid 1px transparent;
+	width: 99.7%;
+	height: 98%;
+	display: flex;
+	flex-direction: inline;
+	border-radius: 5px;
+	background-color: white;
+}
+.formulaire{
+	//border:solid 1px blue;
+	width: 470px;
+	height: 100%;
+}
+.titre{
+	border-bottom:solid 1px grey;
+	width: 100%;
+	height: 60px;
+}
+.titre h2{
+	margin-bottom: 2px;
+	margin-top: 3px;
+	margin-left: 32px;
+}
+.titre h1{
+	margin-top: 2px;
+	margin-left: 32px;
+	font-size: 0.9em;
+    font-weight: lighter;
+    color: grey;
+}
+.ecrit{
+	//border:solid 1px red;
+	height: 260px;
+	width: 92%;
+}
+.boutons{
+	//border:solid 1px green;
+	height: 60px;
+	width: 92%;
+	display: flex;
+	flex-direction: inline;
+}
+.boutons p{
+	margin-left: 32px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.ChoisirFichier{
+	//border:solid 1px blue;
+	height: 20px;
+	width: 100px;
+	margin-left: 60px;
+    margin-top: 6px;
+    font-size: 0.7em;
+    color: white;
+    background-color: #50bfd0;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+.CreerCompte{
+	//border:solid 1px blue;
+	height: 20px;
+	width: 100px;
+	margin-top: 35px;
+	margin-left: 90px;
+	font-size: 0.75em;
+	text-align: center;
+	color: white;
+	background-color: #50bfd0;
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+}
+.photo{
+	//border:solid 1px pink;
+	height: 180px;
+	width: 275px;
+}
+#bigPP{
+	//border: solid 1px pink;
+    height: 150px;
+    width: 150px;
+    border-radius: 500px;
+    margin-top: 4px;
+    margin-left: 60px;
+    background-color: #50bfd0;
+}
+#bigPP img {
+    height: 146px;
+    width: 146px;
+    border-radius: 500px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.photo h1{
+	margin-left: 80px;
+	margin-top: 2px;
+}
+input[type=text], select {
+  width: 400px;
+  height: 33px;
+  padding: 5px 12px;
+  margin-left: 30px;
+  margin-top: 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 400px;
+  height: 33px;
+  padding: 5px 12px;
+  margin-left: 30px;
+  margin-top: 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.ecrit label{
+	margin-left: 32px;
+	color: grey;
+	font-size: 0.8em;
+}
